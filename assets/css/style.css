@@ -286,3 +286,10 @@ input[type=submit] {
  
 
 }
+
+.card-text {
+  font-size:normal;
+  line-height: 1;
+  color: #333;
+
+}
