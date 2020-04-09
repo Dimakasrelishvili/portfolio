@@ -137,7 +137,7 @@ h3, h2 {
   max-width: 1000px;
   padding: 30px;
   margin: 0 0 0px;
-  background: #e6e9e9d5;
+  background: #e6e9e9e8;
   border: 1px solid #b9b2b2;
 }
 
@@ -288,6 +288,9 @@ input[type=submit] {
   float:left;
  
 
+}
+.card {
+  background-color: rgba(214, 200, 200, 0.925);
 }
 
 .card-text {
