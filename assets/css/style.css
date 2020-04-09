@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #4b209b;
-  background: url("../images/concrete_seamless.png");
+  background-color: #666666;
 }
 
 * {
@@ -62,7 +62,7 @@ h3 {
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 0px solid #cccccc;
   font-family: 'Bree Serif', serif;
   background: url("../images/myimage.jpg");
   
@@ -125,18 +125,20 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
- 
+  padding-top:100px;
+  padding-left: 280px;
+  margin-bottom: 0px;
+  border: 0px;
 }
 
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 1000px;
   padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
+  margin: 0 0 0px;
+  background: #e6e9e9d5;
+  border: 1px solid #b9b2b2;
 }
 
 /* portfolio page */
@@ -270,7 +272,8 @@ input[type=submit] {
 #mycards{
   padding-left: 200px;
   padding-right: 200px;
-  
+  padding-top: 100px;
+  padding-bottom: 250px;
   width: 100%;
  
   
@@ -293,3 +296,21 @@ input[type=submit] {
   color: #333;
 
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/software-3682509_960_720.jpg");
+
+  /* Set a specific height */
+  min-height: 600px; 
+  min-width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+  
+}
+
