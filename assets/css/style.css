@@ -273,7 +273,18 @@ input[type=submit] {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 100px;
-  padding-bottom: 250px;
+  padding-bottom: 100px;
+  width: 100%;
+ 
+  
+  float: left;
+ 
+}
+#mycards2{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 0px;
+  padding-bottom: 150px;
   width: 100%;
  
   
@@ -290,7 +301,8 @@ input[type=submit] {
 
 }
 .card {
-  background-color: rgba(214, 200, 200, 0.925);
+  background-color: rgba(214, 200, 200, 0.966);
+  float: right;
 }
 
 .card-text {
